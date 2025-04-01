@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+
+/* Base Input Styles */
+input {
+  @apply w-full px-4 py-2 rounded-lg border-2 transition-all duration-300 focus:outline-none;
+  background: linear-gradient(to right, #ffffff, #f8fafc);
+  border-color: #e2e8f0;
+}
+
+input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+/* Dark Theme Input */
+input.dark {
+  @apply text-white;
+  background: linear-gradient(to right, #1e293b, #0f172a);
+  border-color: #334155;
+}
+
+input.dark:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Base Button Styles */
+button {
+  @apply px-6 py-2 rounded-lg font-semibold text-white transition-all duration-300 transform hover:scale-105;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+button:hover {
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+}
+
+/* Container Styles */
+.form-container, .card {
+  @apply p-8 rounded-xl shadow-xl transition-all duration-300;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.form-container-dark, .card-dark {
+  @apply p-8 rounded-xl shadow-xl transition-all duration-300;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+.card:hover, .card-dark:hover {
+  @apply shadow-2xl;
+}
