@@ -7,7 +7,7 @@ const navLinks = [
     { to: "/login", icon: "🔑", text: "Login" },
     { to: "/register", icon: "📝", text: "Register" },
     { to: "/admin-dashboard", icon: "⚙️", text: "Admin" },
-    { to: "/user-dashboard", icon: "👤", text: "User" },
+    { to: "/user-dashboard", icon: "👨🏻‍💼", text: "User" },
     { to: "/verify", icon: "✅", text: "Verify" }
 ];
 
@@ -55,7 +55,7 @@ function Navbar() {
                                 <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00BFFF] to-[#8A2BE2]">GenVely</h1>
                                 <span className="text-xs px-1.5 py-0.5 rounded-full bg-gradient-to-r from-[#00BFFF]/10 to-[#8A2BE2]/10 text-[#00BFFF] border border-[#00BFFF]/20">BETA</span>
                             </div>
-                            <span className="text-xs text-gray-400 tracking-wider uppercase">Blockchain Certificates</span>
+                            <span className="text-xs text-gray-400 tracking-wider">Blockchain Certificates</span>
                         </div>
                     </Link>
 
