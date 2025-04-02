@@ -16,8 +16,8 @@ function Navbar() {
 
     return (
         <nav className="bg-[#080d1e]/90 backdrop-blur-lg border-b border-white/10 shadow-[0_0_15px_rgba(0,191,255,0.1)]">
-            <div className="max-w-7xl mx-auto px-4">
-                <div className="flex items-center justify-between h-16">
+            <div className="max-w-max mx-auto px-4">
+                <div className="flex items-center justify-between gap-12 h-16">
                     {/* Logo and Title */}
                     <Link to="/" className="flex items-center space-x-3 group">
                         <div className="relative">

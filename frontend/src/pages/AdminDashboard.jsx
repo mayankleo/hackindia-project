@@ -178,7 +178,7 @@ function AdminDashboard() {
                 )}
 
                 {/* Issue Certificate Section */}
-                <div className="bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-white/30 mb-12 transform hover:scale-[1.01] transition-all duration-300">
+                <div className="bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-white/30 mb-12 transform">
                     <div className="flex items-center space-x-3 mb-8">
                         <div className="p-3 bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl">
                             <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -190,7 +190,7 @@ function AdminDashboard() {
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="space-y-6">
-                            <div className="transform hover:scale-[1.02] transition-all duration-200">
+                            <div className="transform">
                                 <label className="block text-sm font-medium text-gray-700 mb-2">Recipient Address</label>
                                 <input 
                                     type="text" 
@@ -200,7 +200,7 @@ function AdminDashboard() {
                                     disabled={!isConnected}
                                 />
                             </div>
-                            <div className="transform hover:scale-[1.02] transition-all duration-200">
+                            <div className="transform">
                                 <label className="block text-sm font-medium text-gray-700 mb-2">Recipient Name</label>
                                 <input 
                                     type="text" 
@@ -210,7 +210,7 @@ function AdminDashboard() {
                                     disabled={!isConnected}
                                 />
                             </div>
-                            <div className="transform hover:scale-[1.02] transition-all duration-200">
+                            <div className="transform">
                                 <label className="block text-sm font-medium text-gray-700 mb-2">Issuer Name</label>
                                 <input 
                                     type="text" 
@@ -222,7 +222,7 @@ function AdminDashboard() {
                             </div>
                         </div>
                         <div className="space-y-6">
-                            <div className="transform hover:scale-[1.02] transition-all duration-200">
+                            <div className="transform">
                                 <label className="block text-sm font-medium text-gray-700 mb-2">Course Name</label>
                                 <input 
                                     type="text" 
@@ -232,7 +232,7 @@ function AdminDashboard() {
                                     disabled={!isConnected}
                                 />
                             </div>
-                            <div className="transform hover:scale-[1.02] transition-all duration-200">
+                            <div className="transform">
                                 <label className="block text-sm font-medium text-gray-700 mb-2">Issue Date</label>
                                 <input 
                                     type="date" 
@@ -241,7 +241,7 @@ function AdminDashboard() {
                                     disabled={!isConnected}
                                 />
                             </div>
-                            <div className="transform hover:scale-[1.02] transition-all duration-200">
+                            <div className="transform">
                                 <label className="block text-sm font-medium text-gray-700 mb-2">Expiry Date</label>
                                 <input 
                                     type="date" 
